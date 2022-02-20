@@ -1,3 +1,7 @@
+li{
+ background-color: #ffffff;
+ cursor: default;
+}
 .selected { 
   font-weight: bold;
 }
