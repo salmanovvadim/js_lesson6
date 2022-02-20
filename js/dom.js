@@ -9,7 +9,7 @@ window.addEventListener('DOMContentLoaded',() =>
   document.getElementById("greeting").innerHTML = `Привет Виталий Валентинович!`;
 
   //Смена цвета фона списка
-  document.getElementById("essentials").style.backgroundColor = "yellow";
+  document.querySelector("#essentials").style.backgroundColor = "yellow";
 
   //Встаувка приветственной картинки
   let greetingImages = document.createElement("img");
