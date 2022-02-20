@@ -1,7 +1,7 @@
 console.log("Javascript - лучший язык программирования!");
 
 //Задаем задержку до внесения изменений в 1500 милисекунд
-window.addEventListener('DOMContentLoaded',() =>
+window.addEventListener("DOMContentLoaded",() =>
 { 
   setTimeout(() => {
 
@@ -9,7 +9,7 @@ window.addEventListener('DOMContentLoaded',() =>
   document.getElementById("greeting").innerHTML = `Привет Виталий Валентинович!`;
 
   //Смена цвета фона списка
-  document.querySelector("#essentials").style.backgroundColor = "yellow";
+  document.getElementById("essentials").style.backgroundColor = "yellow";
 
   //Встаувка приветственной картинки
   let greetingImages = document.createElement("img");

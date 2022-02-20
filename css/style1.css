@@ -1,7 +1,4 @@
-li{
- background-color: #ffffff;
- cursor: default;
-}
+
 .selected { 
   font-weight: bold;
 }
@@ -20,4 +17,7 @@ li{
 }
 input {
   margin-top: 0.5em;
+}
+li{
+ cursor: default;
 }
